@@ -4,7 +4,6 @@ import { renderContact } from "./js/components/contact.js";
 import { renderGallery } from "./js/components/gallery.js";
 import { renderQuoteBenefits } from "./js/components/quote-benefits.js";
 import { renderServices } from "./js/components/services.js";
-import { initializeQuoteForm } from "./js/quote-form.js";
 import { initializeUi } from "./js/ui.js";
 
 async function loadComponents() {
@@ -35,7 +34,6 @@ try {
   renderGallery();
   renderQuoteBenefits();
   renderContact();
-  initializeQuoteForm();
   initializeUi();
 } catch (error) {
   console.error(error);

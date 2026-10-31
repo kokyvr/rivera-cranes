@@ -1030,29 +1030,25 @@ COTIZACIÓN
 
 .quote-wrapper{
 
-    display:grid;
-
-    grid-template-columns:
-
-    420px 1fr;
-
-    gap:60px;
-
-    align-items:flex-start;
+    width:100%;
 
 }
 
 .quote-info{
 
-    position:sticky;
+    width:100%;
 
-    top:120px;
+    max-width:900px;
+
+    margin:0 auto;
+
+    text-align:center;
 
 }
 
 .quote-info h2{
 
-    text-align:left;
+    text-align:center;
 
 }
 
@@ -1064,15 +1060,23 @@ COTIZACIÓN
 
     margin-bottom:35px;
 
+    margin-left:auto;
+
+    margin-right:auto;
+
+    max-width:760px;
+
 }
 
 .quote-items{
 
     display:flex;
 
-    flex-direction:column;
+    justify-content:center;
 
-    gap:20px;
+    flex-wrap:wrap;
+
+    gap:20px 36px;
 
 }
 
@@ -1113,96 +1117,15 @@ COTIZACIÓN
 
 }
 
-.quote-form{
+.quote-whatsapp{
 
-    background:white;
+    display:inline-flex;
 
-    border-radius:24px;
+    margin-top:35px;
 
-    padding:45px;
+    align-items:center;
 
-    box-shadow:
-    0 25px 55px rgba(0,0,0,.08);
-
-}
-
-.form-grid{
-
-    display:grid;
-
-    grid-template-columns:
-
-    repeat(2,1fr);
-
-    gap:20px;
-
-}
-
-#quote-form{
-
-    display:flex;
-
-    flex-direction:column;
-
-    gap:22px;
-
-}
-
-#quote-form input,
-
-#quote-form select,
-
-#quote-form textarea{
-
-    width:100%;
-
-    padding:17px 20px;
-
-    border-radius:14px;
-
-    border:1px solid #dcdcdc;
-
-    outline:none;
-
-    transition:.3s;
-
-    font-size:15px;
-
-    font-family:'Poppins',sans-serif;
-
-}
-
-#quote-form textarea{
-
-    min-height:170px;
-
-    resize:none;
-
-}
-
-#quote-form input:focus,
-
-#quote-form select:focus,
-
-#quote-form textarea:focus{
-
-    border-color:var(--rojo);
-
-    box-shadow:
-
-    0 0 0 4px
-
-    rgba(199,45,53,.12);
-
-}
-
-#quote-form button{
-
-    margin-top:10px;
-
-    width:100%;
-
-    font-size:16px;
+    justify-content:center;
 
 }
 
@@ -1594,22 +1517,6 @@ RESPONSIVE
 
 }
 
-.quote-wrapper{
-
-    grid-template-columns:1fr;
-
-    gap:50px;
-
-}
-
-.quote-info{
-
-    position:relative;
-
-    top:auto;
-
-}
-
 .footer-grid{
 
     gap:40px;
@@ -1890,30 +1797,6 @@ RESPONSIVE
 
 }
 
-.form-grid{
-
-    grid-template-columns:1fr;
-
-}
-
-.quote-form{
-
-    padding:30px;
-
-}
-
-.quote-info{
-
-    text-align:center;
-
-}
-
-.quote-info h2{
-
-    text-align:center;
-
-}
-
 .quote-items{
 
     align-items:center;
@@ -1994,22 +1877,6 @@ h2{
 
 }
 
-.quote-form{
-
-    padding:25px;
-
-}
-
-#quote-form input,
-
-#quote-form select,
-
-#quote-form textarea{
-
-    padding:15px;
-
-}
-
 .whatsapp{
 
     width:58px;
@@ -2069,8 +1936,7 @@ img{
 .commit-card,
 .contact-card,
 .gallery-item,
-.about-features div,
-.quote-form{
+.about-features div{
 
     will-change:transform;
 
@@ -2215,32 +2081,6 @@ GALERÍA
 .gallery-item:hover img{
 
     opacity:.9;
-
-}
-
-/*==================================================
-FORMULARIO
-==================================================*/
-
-#quote-form input::placeholder,
-
-#quote-form textarea::placeholder{
-
-    color:#999;
-
-}
-
-#quote-form select{
-
-    cursor:pointer;
-
-}
-
-#extra-fields{
-
-    display:grid;
-
-    gap:20px;
 
 }
 
