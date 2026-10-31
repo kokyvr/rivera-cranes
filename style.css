@@ -1722,7 +1722,13 @@ RESPONSIVE
 
 .header{
 
-    background:rgba(36,44,86,.97);
+    background:rgba(242,243,245,.97);
+
+}
+
+.menu-mobile{
+
+    color:var(--azul);
 
 }
 
