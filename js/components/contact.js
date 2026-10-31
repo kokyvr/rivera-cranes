@@ -12,11 +12,6 @@ const contactDetails = [
     icon: "fa-solid fa-envelope"
   },
   {
-    title: "Dirección",
-    lines: ["Mariano Mendigure 170", "Tungasuca - Carabayllo"],
-    icon: "fa-solid fa-location-dot"
-  },
-  {
     title: "Horario",
     lines: ["Atención las 24 horas"],
     icon: "fa-solid fa-clock"
